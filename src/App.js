@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import car1Image from './images/Tesla Model Y Long Range UK 019_tswxae.webp'; // Importing car1 image
-import car2Image from './images/Tesla Model Y Long Range UK 019_tswxae.webp'; // Importing car2 image
-import car3Image from './images/Tesla Model Y Long Range UK 019_tswxae.webp'; // Importing car3 image
-import car4Image from './images/Tesla Model Y Long Range UK 019_tswxae.webp'; // Importing car4 image
+
+// Importing images with the new path
+import car1Image from '/Users/itziklugassy/Documents/node/any_name/src/images/shutterstock_1202593378.jpg'; // Importing car1 image
+import car2Image from '/Users/itziklugassy/Documents/node/any_name/src/images/shutterstock_1202593378.jpg'; // Importing car2 image
+import car3Image from '/Users/itziklugassy/Documents/node/any_name/src/images/shutterstock_1202593378.jpg'; // Importing car3 image
+import car4Image from '/Users/itziklugassy/Documents/node/any_name/src/images/shutterstock_1202593378.jpg'; // Importing car4 image
 
 // Car Component
 const Car = ({ car, onDelete, onUpdate }) => {
